@@ -1,0 +1,15 @@
+/* 
+relative
+absolute
+display inline
+div
+
+hover
+visited
+active
+
+list -> ul ol
+list style image (icon)
+
+
+*/
