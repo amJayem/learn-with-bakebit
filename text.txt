@@ -11,5 +11,17 @@ active
 list -> ul ol
 list style image (icon)
 
-
+cls-3
+audio
+video
+map
+iframe
+fontawsome4
+table
+form
+cntrl+h = replace all
+position
+before::after
+display
+transition
 */

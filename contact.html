@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task#2</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css"> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,16 +31,110 @@
     <!--header End-->
     
     <!--Main-->
-    <div class="main">
+    <div class="contact">
         <h1>Contact section</h1>
-        <div class="contact">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam dolorem mollitia animi sint facilis, exercitationem voluptatem nulla nobis harum iusto, temporibus dignissimos quia. Debitis assumenda placeat pariatur. Adipisci, ea.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam dolorem mollitia animi sint facilis, exercitationem voluptatem nulla nobis harum iusto, temporibus dignissimos quia. Debitis assumenda placeat pariatur. Adipisci, ea.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam dolorem mollitia animi sint facilis, exercitationem voluptatem nulla nobis harum iusto, temporibus dignissimos quia. Debitis assumenda placeat pariatur. Adipisci, ea.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam dolorem mollitia animi sint facilis, exercitationem voluptatem nulla nobis harum iusto, temporibus dignissimos quia. Debitis assumenda placeat pariatur. Adipisci, ea.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam dolorem mollitia animi sint facilis, exercitationem voluptatem nulla nobis harum iusto, temporibus dignissimos quia. Debitis assumenda placeat pariatur. Adipisci, ea.
-            </p>
+            <form action="" method="POST">
+
+                    <table class="form_table">
+                        <tr>
+                            <td>Name</td>
+                            <td>
+                                <input type="text" placeholder="Enter your name">
+                            </td>
+                        </tr>
+
+                        <tr> 
+                            <td>Gender</td>
+                            <td>
+                                <input type="radio" >Male 
+                                <input type="radio">Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Age</td>
+                            <td>
+                                <input type="number" name="age">
+                            </td>
+                        </tr>
+
+                        
+                        <td>Email</td>
+                        <td>
+                            <input type="text" placeholder="Enter your Email">
+                        </td>
+                        
+
+                        </tr>
+                            <td>Password</td>
+                            <td>
+                                <input type="password" placeholder="Enter your password">
+                            </td>
+                        </tr>
+                        
+                        
+
+                        <tr>
+                            <td>Choose your Country</td>
+                            <td>
+                                <select name="country" id="">
+                                    <option value="">Bangladesh</option>
+                                    <option value="">USA</option>
+                                    <option value="">UK</option>
+                                    <option value="">Africa</option>
+                                    <option value="">Uganda</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Your message </td>
+                            <td>
+                                <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message here">
+                                </textarea>
+                            </td>
+                        </tr> 
+
+                        <tr>
+                            <td class="follow">Follow :</td>
+                            <td>             
+                                <span class="fa-stack fa-lg ">
+                                    <a class="social" href="">
+                                    <i class="twitter fa fa-twitter fa-stack-1x"></i>
+                                    </a>
+                                </span>
+
+                                <span class="fa-stack fa-lg">
+                                    <a class="social"  href="">
+                                    <i class="facebook fa fa-facebook fa-stack-1x"></i>
+                                    </a>
+                                </span>
+                                
+
+                                <span class="fa-stack fa-lg">
+                                    <a class="social"  href="">
+                                        <i class="linkedin fa fa-linkedin fa-stack-1x"></i>
+                                    </a>
+                                </span>
+
+                                <span class="fa-stack fa-lg ">
+                                    <a class="social"  href="">
+                                        <i class="youtube fa fa-youtube fa-stack-1x"></i></a>
+                                </span>
+
+                            </td>
+                        </tr>              
+                        
+
+                </table>
+                
+                <input type="submit" value="Send Message">
+
+            </form>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3651.5822786993344!2d89.6475483!3d23.762271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1620464920188!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
     </div>
     <!--Main End-->
