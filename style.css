@@ -7,7 +7,7 @@ html{
 }
 body{
     background-color: #48C2C5;
-    
+    padding: 20px 150px;
 }
 
 .common{
@@ -16,6 +16,17 @@ body{
     border-radius: 50px ;
     overflow:auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+h3{
+    color: #E7EAD3;
+    background-image: radial-gradient(circle,#336F9F,#48C2C5);
+    text-align: center;
 }
 /* Header */
 .header{
@@ -89,16 +100,7 @@ body{
     border-radius: 50px ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.main h1{
-    color: #fff;
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center;
-}
-.main h3{
-    color: #E7EAD3;
-    background-image: radial-gradient(circle,#336F9F,#48C2C5);
-    text-align: center;
-}
+
 .main_child1, .main_child2, .main_child3, .main_child4{
     border-radius: 30px;
     text-align: center;
@@ -138,6 +140,57 @@ body{
     color: #fff;
 }
 
+.index{
+    width: 90%;
+    background-color: #09C19E70;
+    margin: 20px auto;
+    border-radius: 50px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_gallery{
+    height: 300px;
+    width:  450px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.img_gallery img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.img_gallery::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #48C2C5;
+    opacity: .3;
+    transition: margin-top .5s;
+    z-index: 1;
+}
+.img_gallery:hover::after{
+    margin-top: 300px;
+}
+
+.img_gallery::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #48C2C5;
+    opacity: .3;
+    transition: margin-left .5s;
+    z-index: 1;
+}
+.img_gallery:hover::before{
+    margin-left: 450px;
+}
 /* Main END */
 
 /* about */
@@ -259,8 +312,7 @@ body{
     margin-bottom: 90px;
     overflow: auto;
     color: #D3ECF2;
-    text-align: center;
-    
+    text-align: center;    
 }
 .contact h1{
     color: #fff;
